@@ -21,6 +21,14 @@ class javascript {
         require => Class['nodejs']
     }
 
+    exec { 'nodemon':
+        command => "npm install nodemon -g",
+        cwd => $PROJ_DIR,
+        path => $PATH,
+        logoutput => on_failure,
+        require => Class['nodejs']
+    }
+
     exec { "npm_install":
         command => "npm install --no-bin-links",
         cwd => $PROJ_DIR,
