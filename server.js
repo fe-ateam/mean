@@ -9,6 +9,7 @@ var app = express();
 app.set('port', process.env.PORT || 3000);
 app.use(logger());
 app.use(bodyParser());
+app.use('/bower', express.static(__dirname + '/bower'));
 app.use(express.static(__dirname + '/app'));
 
 
