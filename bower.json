@@ -11,6 +11,7 @@
     "jquery": "~2.1.0",
     "angular": "~1.2.16",
     "angular-resource": "~1.2.16",
-    "angular-route": "~1.2.16"
+    "angular-route": "~1.2.16",
+    "normalize-css": "~3.0.1"
   }
 }
