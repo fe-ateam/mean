@@ -26,10 +26,6 @@ class init {
                 ensure => present,
                 require => Exec['update_apt']
             }
-
-            #apt::ppa { 'ppa:chris-lea/node.js':
-            #    require => Package['install_dev_libs']
-            #}
         }
     }
 }
