@@ -21,6 +21,22 @@ class javascript {
         require => Class['nodejs']
     }
 
+    exec { "npm_install":
+        command => "npm install --no-bin-links",
+        cwd => $PROJ_DIR,
+        path => $PATH,
+        logoutput => on_failure,
+        require => Class['nodejs']
+    }
+
+    exec { "bower_install":
+        command => "bower install --allow-root",
+        cwd => $PROJ_DIR,
+        path => $PATH,
+        logoutput => on_failure,
+        require => Class['nodejs']
+    }
+
     #package { 'grunt-cli':
     #    provider => npm,
     #    ensure => installed,
