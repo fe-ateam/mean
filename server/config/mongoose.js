@@ -1,4 +1,5 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose')
+  , cityModel = require('../models/city');
 
 module.exports = function(config) {
 
@@ -9,5 +10,8 @@ module.exports = function(config) {
   db.once('open', function callback() {
     console.log('hackathon db opened');
   });
+
+  // Populate default data
+  cityModel.createDefaultCities();
 };
 
