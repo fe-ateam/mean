@@ -1,18 +1,14 @@
-var express = require('express')
-  , logger = require('morgan')
-  , bodyParser = require('body-parser')
-  , methodOverride = require('method-override')
-  , errorHandler = require('errorhandler');
+var express = require('express');
+
+var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 var app = express();
 
-app.set('port', process.env.PORT || 3000);
-app.use('/lib', express.static(__dirname + '/lib'));
-app.use(express.static(__dirname + '/public'));
-app.use(logger('dev'));
-app.use(bodyParser());
-app.use(methodOverride());
-app.use(errorHandler({ dumpExceptions: true, showStack: true }));
+var config = require('./server/config/config')[env];
 
-app.listen(app.get('port'));
-console.log('Listening on port ' + app.get('port') + '...');
+require('./server/config/express')(app, config);
+require('./server/config/mongoose')(config);
+//require('./server/config/routes')(app);
+
+app.listen(config.port);
+console.log('Listening on port ' + config.port + '...');
