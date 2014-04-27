@@ -4,6 +4,9 @@
   "description": "A-Team Hackathon 2014",
   "author": "A-Team",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "main": "server.js",
   "dependencies": {
     "express": "~4.0.0",

@@ -21,13 +21,13 @@ class javascript {
         require => Class['nodejs']
     }
 
-    exec { 'nodemon':
-        command => "npm install nodemon -g",
-        cwd => $PROJ_DIR,
-        path => $PATH,
-        logoutput => on_failure,
-        require => Class['nodejs']
-    }
+    #exec { 'nodemon':
+    #    command => "npm install nodemon -g",
+    #    cwd => $PROJ_DIR,
+    #    path => $PATH,
+    #    logoutput => on_failure,
+    #    require => Class['nodejs']
+    #}
 
     exec { "npm_install":
         command => "npm install --no-bin-links",
@@ -59,17 +59,5 @@ class javascript {
     #    provider => npm,
     #    ensure => installed,
     #    require => Package['yo']
-    #}
-    #exec { "npm_install":
-    #    command => "npm install --no-bin-links",
-    #    cwd => "/vagrant",
-    #    path => "/usr/local/node/node-default/bin",
-    #    require => Class['nodejs']
-    #}
-    #exec { "bower_install":
-    #    command => "bower install",
-    #    cwd => "/vagrant",
-    #    path => "/usr/local/node/node-default/bin",
-    #    require => Class['nodejs']
     #}
 }

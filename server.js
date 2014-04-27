@@ -14,9 +14,5 @@ app.use(bodyParser());
 app.use(methodOverride());
 app.use(errorHandler({ dumpExceptions: true, showStack: true }));
 
-app.get('/test', function(req, res) {
-  res.send('This is a test');
-});
-
 app.listen(app.get('port'));
 console.log('Listening on port ' + app.get('port') + '...');
