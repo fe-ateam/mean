@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "ignore": [
+    ".git",
+    ".vagrant",
+    "puppet",
+    "node_modules/**/node_modules"
+  ]
+/*
+  ,
+  "watch": [
+    "test/fixtures/",
+    "test/samples/"
+  ]
+  */
+}
