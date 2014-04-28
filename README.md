@@ -1,32 +1,32 @@
 mean
 ====
 
-* Source code - [Github][https://github.com/fe-ateam/mean.git]
+* Source code - [Github](https://github.com/fe-ateam/mean.git)
 * Author - David Cai - <w.david.cai@gmail.com>
 
 About
 -----
 
-This project provides a [Ubuntu (12.04) 64][http://releases.ubuntu.com/precise/] [Vagrant][http://www.vagrantup.com/] Virtual Machine (VM) with a MEAN stack -- [MongoDB][https://www.mongodb.org/], [Express][http://expressjs.com/], [AngularJS][https://angularjs.org/], and [NodeJS][http://nodejs.org/] for web development. It also installs the following useful software:
+This project provides a [Ubuntu (12.04) 64](http://releases.ubuntu.com/precise/) [Vagrant](http://www.vagrantup.com/) Virtual Machine (VM) with a MEAN stack -- [MongoDB](https://www.mongodb.org/), [Express](http://expressjs.com/), [AngularJS](https://angularjs.org/), and [NodeJS](http://nodejs.org/) for web development. It also installs the following useful software:
 
-* [bower][http://bower.io/]
-* [jQuery][http://jquery.com/]
-* [normalize CSS][http://necolas.github.io/normalize.css/]
-* [bootstrap][http://getbootstrap.com/]
-* [angular-bootstrap][https://github.com/angular-ui/bootstrap]
+* [bower](http://bower.io/)
+* [jQuery](http://jquery.com/)
+* [normalize CSS](http://necolas.github.io/normalize.css/)
+* [bootstrap](http://getbootstrap.com/)
+* [angular-bootstrap](https://github.com/angular-ui/bootstrap)
 
-There are [Puppet][http://puppetlabs.com] scripts that automatically install the above software when the VM is started.
+There are [Puppet](http://puppetlabs.com) scripts that automatically install the above software when the VM is started.
 
 Installation
 ------------
 
-1. Install [Oracle VirtualBox][https://www.virtualbox.org/wiki/Downloads]
+1. Install [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-2. Install [Vagrant][http://www.vagrantup.com/downloads.html]
+2. Install [Vagrant](http://www.vagrantup.com/downloads.html)
 
-3. Install [Github][https://help.github.com/articles/set-up-git]
+3. Install [Github](https://help.github.com/articles/set-up-git)
 
-4. Clone this git
+4. Clone this repository
 
     ```
     git clone https://github.com/fe-ateam/mean.git
@@ -62,11 +62,7 @@ Running
     node server.js
     ```
 
-5. Open browser on the host machine and visit
-
-    ```
-    http://localhost:3000
-    ```
+5. Open browser on the host machine and visit `http://localhost:3000`
 
 Termination
 -----------
