@@ -7,7 +7,7 @@ mean
 About
 -----
 
-This project provides a [Ubuntu (12.04) 64](http://releases.ubuntu.com/precise/) [Vagrant](http://www.vagrantup.com/) Virtual Machine (VM) with a MEAN stack -- [MongoDB](https://www.mongodb.org/), [Express](http://expressjs.com/), [AngularJS](https://angularjs.org/), and [NodeJS](http://nodejs.org/) for web development. It also installs the following useful software:
+This project provides a [Ubuntu (12.04) 64](http://releases.ubuntu.com/precise/) [Vagrant](http://www.vagrantup.com/) Virtual Machine (VM) with a MEAN stack -- [MongoDB](https://www.mongodb.org/), [Express](http://expressjs.com/), [AngularJS](https://angularjs.org/), and [NodeJS](http://nodejs.org/) for web development. It also installs the following software:
 
 * [bower](http://bower.io/)
 * [jQuery](http://jquery.com/)
@@ -24,9 +24,7 @@ Installation
 
 2. Install [Vagrant](http://www.vagrantup.com/downloads.html)
 
-3. Install [Github](https://help.github.com/articles/set-up-git)
-
-4. Clone this repository
+3. Clone this repository
 
     ```
     git clone https://github.com/fe-ateam/mean.git
@@ -35,32 +33,32 @@ Installation
 Running
 -------
 
-1. To start the virtual machine(VM) type
+1. To start the virtual machine(VM), type
 
-    ```bash
-    cd mean
-    vagrant up
-    ```
+  ```bash
+  cd mean
+  vagrant up
+  ```
 
   This will take a while to install Ubuntu and all required software.
 
 2. Connect to the virtual machine (guest machine)
 
-    ```
-    vagrant ssh
-    ```
+  ```
+  vagrant ssh
+  ```
 
 3. Go to the project root directory
 
-    ```bash
-    cd /vagrant
-    ```
+  ```bash
+  cd /vagrant
+  ```
 
-4. To start the node server type
+4. To start the node server, type
 
-    ```
-    node server.js
-    ```
+  ```
+  node server.js
+  ```
 
 5. Open browser on the host machine and visit `http://localhost:3000`
 
@@ -71,16 +69,15 @@ Termination
 
 2. Type `exit` to logout the virtual machine
 
-3. To stop the virtual machine type
+3. To stop the virtual machine, type
 
-    ```
-    vagrant halt
-    ```
+  ```
+  vagrant halt
+  ```
 
-4. To physically remove the virtual machine type
+4. To physically remove the virtual machine (not necessary in most cases), type
 
-    ```
-    vagrant destroy
-    ```
-
+  ```
+  vagrant destroy
+  ```
 
