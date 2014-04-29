@@ -2,7 +2,7 @@ mean
 ====
 
 * Source code - [Github](https://github.com/fe-ateam/mean.git)
-* Author - David Cai - <w.david.cai@gmail.com>
+* Author - David C - <w.david.cai@gmail.com>
 
 About
 -----
