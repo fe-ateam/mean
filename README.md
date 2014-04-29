@@ -4,7 +4,7 @@ mean
 * Source code - [Github](https://github.com/fe-ateam/mean.git)
 * Author - David (W) C - <w.david.cai@gmail.com>
 
-About
+About Chu?
 -----
 
 This project provides a [Ubuntu (12.04) 64](http://releases.ubuntu.com/precise/) [Vagrant](http://www.vagrantup.com/) Virtual Machine (VM) with a MEAN stack -- [MongoDB](https://www.mongodb.org/), [Express](http://expressjs.com/), [AngularJS](https://angularjs.org/), and [NodeJS](http://nodejs.org/) for web development. It also installs the following software:
