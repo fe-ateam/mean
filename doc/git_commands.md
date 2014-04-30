@@ -31,3 +31,17 @@ Push to remote repo
 ```
 git push
 ```
+
+Revert changes in index
+
+```
+git checkout -- filename
+```
+
+Revert changes in local repo
+
+```
+git checkout HEAD filename
+```
+
+
