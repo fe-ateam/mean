@@ -1,6 +1,17 @@
 GIT commands
 ============
 
+Workflow
+--------
+
+Workspace <---> Index <---> Local repo <---> Remote repo
+
+Check out [this article](http://blog.osteele.com/posts/2008/05/my-git-workflow) for better illustration.
+
+
+Commands
+--------
+
 Set default pull/push branch
 
 ```
