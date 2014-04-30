@@ -14,6 +14,7 @@ This project provides a [Ubuntu (12.04) 64](http://releases.ubuntu.com/precise/)
 * [normalize CSS](http://necolas.github.io/normalize.css/)
 * [bootstrap](http://getbootstrap.com/)
 * [angular-bootstrap](https://github.com/angular-ui/bootstrap)
+* [angular-animate](https://docs.angularjs.org/guide/animations)
 
 There are [Puppet](http://puppetlabs.com) scripts that automatically install the above software when the VM is started.
 
