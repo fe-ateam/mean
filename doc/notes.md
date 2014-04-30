@@ -23,7 +23,7 @@ Images
 Question/Answers UI model
 -------------------------
 
-```json
+```javascript
 [
   {
     id: "location", // We can use the id to get the image URL
@@ -64,7 +64,7 @@ Question/Answers UI model
 
 We might need a mapping of answer IDs to Numbeo cost item IDs (or item names).
 
-```json
+```javascript
 {
   "housing_rent_1_in": "Apartment (1 bedroom) in City Centre",
   "housing_buy_in": "Price per Square Meter to Buy Apartment in City Centre"
