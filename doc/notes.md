@@ -26,7 +26,7 @@ Question/Answers UI model
 ```javascript
 [
   {
-    id: "location", // We can use the id to get the image URL
+    id: "location", // We can use ID to get the icon URL
     name: "Where do you want to retire?",
     type: "text"
   },
@@ -36,7 +36,7 @@ Question/Answers UI model
     name: "What type of home do you want to live in?",
     type: "radiobutton",
     answers: [
-      // We can use the combination of ID to get the image URL
+      // We can use ID to get the image URL
       { id: "housing_rent_1_in", name: "Rent 1-bedroom apartment in city centre", selected: true },
       { id: "housing_rent_3_in", name: "Rent 3-bedroom apartment in city centre" },
       { id: "housing_rent_1_out", name: "Rent 1-bedroom apartment outside of centre" },
