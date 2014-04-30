@@ -1,5 +1,5 @@
 Workflow
-========
+--------
 
 Workspace <===> Index <===> Local repo <===> Remote repo
 
@@ -7,11 +7,10 @@ Check out [this article](http://blog.osteele.com/posts/2008/05/my-git-workflow) 
 
 
 Commands
-========
+--------
 
 
 Set default pull/push branch
-----------------------------
 
 ```
 git config push.default current
@@ -20,7 +19,6 @@ git config pull.default current
 
 
 Pull from remote repo
----------------------
 
 ```
 git pull
@@ -28,7 +26,6 @@ git pull
 
 
 Add changes from workspace to index
------------------------------------
 
 ```
 git add -A
@@ -36,7 +33,6 @@ git add -A
 
 
 Commit changes to local repo
-----------------------------
 
 ```
 git commit -m "my message"
@@ -44,7 +40,6 @@ git commit -m "my message"
 
 
 Push to remote repo
--------------------
 
 ```
 git push
@@ -52,7 +47,6 @@ git push
 
 
 Revert changes in index
------------------------
 
 ```
 git checkout -- filename
@@ -60,7 +54,6 @@ git checkout -- filename
 
 
 Revert changes in local repo
-----------------------------
 
 ```
 git checkout HEAD filename
@@ -68,7 +61,6 @@ git checkout HEAD filename
 
 
 Merge (resolve) conflicts
--------------------------
 
 ```
 git mergetool -t p4merge
@@ -76,11 +68,8 @@ git mergetool -t p4merge
 
 
 Alias (optional)
-================
+----------------
 
-
-git st
-------
 
 Create an alias for `git status`
 
@@ -91,18 +80,12 @@ git config --global alias.st status
 Instead of typing `git status`, now you just type `git st`.
 
 
-git aa
-------
-
 Command `git add -A` adds both tracked and untracked changes to the index. Here is how to create a shortcut `git aa`:
 
 ```
 git config --global alias.aa 'add -A'
 ```
 
-
-git ci
-------
 
 The verbose commit `git commit -v` gives more diff information of the comitting changes. Besides, this command will bring up a vi editor to enter message.
 
