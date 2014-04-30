@@ -2,7 +2,7 @@ mean
 ====
 
 * Source code - [Github](https://github.com/fe-ateam/mean.git)
-* Author - Wenjuan (David) Cai - <w.david.cai@gmail.com>
+* Author - Wen-juan (David) Cai - <w.david.cai@gmail.com>
 
 About Chu?
 -----
